@@ -1,0 +1,21 @@
+.continue {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #3EB489;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: white;
+  }
+
+.main {
+  margin-top: 300px;
+  /* display: flex; */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
