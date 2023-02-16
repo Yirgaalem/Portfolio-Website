@@ -7,16 +7,18 @@ import Navbar from './Navbar'
 function App() {
   const [count, setCount] = useState(0)
 
+
   return (
+    
     <div className="App">
-      
+
+
+      <Navbar></Navbar>
+
       <div className="First_Page">
-        <Navbar></Navbar>
-        
-      </div>
-      <div>
         <Intro></Intro>
       </div>
+
     </div>
   )
 }
