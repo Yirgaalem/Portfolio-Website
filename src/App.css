@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  max-width: 90vw;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 90vw;
   
 }
 
@@ -17,8 +18,7 @@ button {
   cursor: pointer;
   color: white;
 }
-
-
+/* * { border: 1px solid rgb(255, 0, 0); }. */
 
 
 

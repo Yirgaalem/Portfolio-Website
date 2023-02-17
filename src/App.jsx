@@ -1,22 +1,24 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Intro from './Intro'
+import Home from './Home'
 import Navbar from './Navbar'
+import Projects from './Projects'
 
 function App() {
-  const [count, setCount] = useState(0)
-
 
   return (
     
     <div className="App">
 
-
       <Navbar></Navbar>
 
       <div className="First_Page">
-        <Intro></Intro>
+        <Home></Home>
+      </div>
+      
+      <div className='Second Page'>
+        <Projects></Projects>
       </div>
 
     </div>

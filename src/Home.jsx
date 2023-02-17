@@ -1,5 +1,5 @@
-import './Intro.css'
-function Intro(){
+import './Home.css'
+function Home(){
   return(
       <div class="main">
         <h1>Hi, I'm Nahor Yirgaalem</h1>    
@@ -11,4 +11,4 @@ function Intro(){
   )
 }
 
-export default Intro;
+export default Home;
