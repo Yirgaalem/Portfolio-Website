@@ -1,24 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Home from './Home'
 import Navbar from './Navbar'
 import Projects from './Projects'
+import About from './About'
+import Skills from './Skills'
 
 function App() {
 
   return (
     
-    <div className="App">
 
+    <div id="App">
+      
       <Navbar></Navbar>
 
-      <div className="First_Page">
-        <Home></Home>
-      </div>
+      <Home></Home>
       
-      <div className='Second Page'>
+      <div id='Projects_Page'>
         <Projects></Projects>
+      </div>
+
+      <div id='About_Page'>
+        <About></About>
+      </div>
+
+      <div id='Skills_Page'>
+        <Skills></Skills>
       </div>
 
     </div>
