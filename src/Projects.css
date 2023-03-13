@@ -14,8 +14,16 @@
     text-decoration: none
 }
 
-.simpleButton{
+/* .simpleButton{
   margin-top: 10px;
+} */
+.code{}
+
+.Carousel{
+  margin-left: 400px;
+  max-width: 50%;
+  align-self: center;
+  
 }
 
 #Projects{
