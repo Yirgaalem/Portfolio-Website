@@ -9,34 +9,35 @@ function Projects(){
 
             <Carousel className='Carousel' withIndicators
               height={400}
-              slideSize="33.333333%"
+              slideSize="50%"
               slideGap="md"
               loop
-              align="start"
+              align="center"
               breakpoints={[
                 { maxWidth: 'md', slideSize: '50%' },
                 { maxWidth: 'sm', slideSize: '100%', slideGap: 0 },
               ]}>
                 
                 <Carousel.Slide>
+                  
                   <div className="DiscordProject">
                       <img src="src\assets\DiscordBotProject.png"/>
-                      <button className='code'><a className="discordLink" href="https://github.com/Yirgaalem/Loggy-Discord-Bot" target="_blank">View Code</a></button>
                   </div>
+                  <button className='code'><a className="discordLink" href="https://github.com/Yirgaalem/Loggy-Discord-Bot" target="_blank">View Code</a></button>
                 </Carousel.Slide>
 
                 <Carousel.Slide>
                   <div className="PortfolioWebsite">
                     <img src="src\assets\PortfolioProject.png"/>
-                    <button className='code'><a className="portfolioLink" href="https://github.com/Yirgaalem/Portfolio-Website" target="_blank">View Code</a></button>
                   </div>
+                  <button className='code'><a className="portfolioLink" href="https://github.com/Yirgaalem/Portfolio-Website" target="_blank">View Code</a></button>
                 </Carousel.Slide>
 
                 <Carousel.Slide>
                   <div>
                     <img src="src\assets\SimpleViewProject.png"/>
-                    <button className="code"><a className="simpleViewLink" href="https://github.com/Yirgaalem/OpenGL-RaceWay" target="_blank">View Code</a></button>
                   </div>
+                  <button className="code"><a className="simpleViewLink" href="https://github.com/Yirgaalem/OpenGL-RaceWay" target="_blank">View Code</a></button>
                 </Carousel.Slide>
 
             </Carousel>
