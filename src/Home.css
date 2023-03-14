@@ -7,14 +7,13 @@
     font-weight: 500;
     font-family: inherit;
     background-color: #3EB489;
-    cursor: pointer;
+    cursor:pointer;
     transition: border-color 0.25s;
     color: white; 
   }
 
 #Home {
   margin-top: 300px;
-  /* display: flex; */
   place-items: center;
   min-width: 320px;
   min-height: 600px;
@@ -22,12 +21,31 @@
 .container{
   position: absolute;
   align-items: center;
+  width: 100%;
+  bottom:90px;
 }
+
+.deskImage{
+  margin-left: auto;
+  margin-right: 0;
+  margin-left: 40%;
+  width: 25%;  
+  /* padding-bottom: 500px; */
+}
+
 .Hello{
   position: absolute;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 590px;
+  padding-right: 250px;
+  bottom:20px;
+  
+}
 
+.Desc, .continue{
+  margin-right: 200px;
+  margin-top: 20px;
 }
