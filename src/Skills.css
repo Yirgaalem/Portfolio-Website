@@ -1,12 +1,37 @@
 #Skills{
   margin-top: 600px;
 }
+
 .icon{
   max-width: 96px;
   max-height: auto;
+  padding-top: 200px;
+  padding-right: 460px;
 }
-.icons img:hover{
-  max-height: 150px;
-  max-width: 150px;
-  background-color: blue;
+
+.icons{ 
+  display: flex;
+  flex-wrap: wrap; 
 }
+
+ .icons img:hover{
+  min-height: 150px;
+  min-width: 150px;
+  right: 1000px;
+  bottom: 25px;
+}
+
+.icons div:hover{
+  right: 1000px;
+  bottom: 25px;
+}
+
+.Python, .C, .cpp, .java, .sql, .vba, .js, .ts, .html, .css, .react{
+  position: relative;
+  max-width:fit-content;
+  max-height: auto;
+  left: 250px; 
+  padding: -200px;
+} 
+
+
