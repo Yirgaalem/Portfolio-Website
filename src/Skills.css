@@ -2,36 +2,55 @@
   margin-top: 600px;
 }
 
-.icon{
+.skillsHeader{
+  margin: 0;
+}
+
+.icon, .iconT{
   max-width: 96px;
   max-height: auto;
   padding-top: 200px;
-  padding-right: 460px;
+  padding-right: 300px;
 }
 
-.icons{ 
+.icons, .three{ 
   display: flex;
   flex-wrap: wrap; 
 }
 
- .icons img:hover{
+.icons .icon:hover, .iconT:hover{/*img:hover{*/
   min-height: 150px;
   min-width: 150px;
-  right: 1000px;
-  bottom: 25px;
+  padding-right: 246px;
+  padding-top: 100px;
 }
 
-.icons div:hover{
-  right: 1000px;
-  bottom: 25px;
+.icons .four:hover{
+  top:75px;
+  left: 200px;
 }
 
-.Python, .C, .cpp, .java, .sql, .vba, .js, .ts, .html, .css, .react{
+.four{
   position: relative;
-  max-width:fit-content;
+  max-width: fit-content;
   max-height: auto;
-  left: 250px; 
-  padding: -200px;
+  left: 230px; 
 } 
+
+.three{
+  position: relative;
+  max-width: fit-content;
+  max-height: auto;
+  left: 420px;
+}
+
+
+
+.icons .three:hover{
+  top:75px;
+  left: 390px;
+}
+
+
 
 
