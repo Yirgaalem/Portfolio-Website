@@ -24,6 +24,6 @@
 }
 
 #Projects{
-  margin-top: 260px;
   padding-top: 40px;
+  max-height: 700px;
 }

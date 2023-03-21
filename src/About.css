@@ -1,3 +1,12 @@
+
 #About{
-  margin-top: 600px;
+  margin-top: 350px;
+  max-height: 700px;
+}
+
+.Me{
+  max-width: 800px;
+  position: relative;
+  left: 26%;
+  font-size: 17px;
 }

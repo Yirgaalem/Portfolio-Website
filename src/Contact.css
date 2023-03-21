@@ -1,0 +1,59 @@
+#Contact{
+  margin-top: 250px;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin_cont, .linkedin{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top:.5px;
+}
+.linkedin{
+  position: relative;
+  right: 20px;
+}
+.github_cont, .github{
+  width: 30px;
+  height:30px;
+}
+
+.github{
+  position: relative;
+  top: 3px;
+}
+
+.resume_cont, .resume{
+  width:30px;
+  height:30px;
+}
+
+.resume{
+  position: relative;
+  left: 20px;
+  top: 3px;
+}
+.copy{
+  position: relative;
+  padding-top: 10px;
+  left: 10px;
+}
+
+.copyright{
+  position:relative;
+  right:15px;
+  width: 20px;
+  height: 20px;
+  top: 4px;
+}
+
+.author{
+  color: #3EB489;
+  position: relative;
+  font-size: 18px;
+  right:4px;
+}

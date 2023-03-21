@@ -15,12 +15,10 @@
 #Home {
   margin-top: 300px;
   min-width: 320px;
-  min-height: 600px;
+  max-height: 700px;
 }
 
-
 .container{
-  /* background-color: blue; */
   position: relative;
   bottom: 550px;
 } 
