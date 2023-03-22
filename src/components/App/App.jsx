@@ -1,11 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './Home'
-import Navbar from './Navbar'
-import Projects from './Projects'
-import About from './About'
-import Skills from './Skills'
-import Contact from './Contact'
+import {Navbar, Home, Projects, Skills, About, Contact} from '@components'
 
 function App() {
 

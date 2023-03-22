@@ -1,6 +1,6 @@
 import './Projects.css'
 import { Carousel } from '@mantine/carousel';
-
+import { DiscordBotProject, PortfolioProject, SimpleViewProject} from '@assets';
 function Projects(){
 
     return(  
@@ -21,21 +21,21 @@ function Projects(){
                 <Carousel.Slide>
                   
                   <div className="DiscordProject">
-                      <img src="src\assets\projects\DiscordBotProject.png"/>
+                      <img src={DiscordBotProject}/>
                   </div>
                   <button className='code'><a className="discordLink" href="https://github.com/Yirgaalem/Loggy-Discord-Bot" target="_blank">View Code</a></button>
                 </Carousel.Slide>
 
                 <Carousel.Slide>
                   <div className="PortfolioWebsite">
-                    <img src="src\assets\projects\PortfolioProject.png"/>
+                    <img src={PortfolioProject}/>
                   </div>
                   <button className='code'><a className="portfolioLink" href="https://github.com/Yirgaalem/Portfolio-Website" target="_blank">View Code</a></button>
                 </Carousel.Slide>
 
                 <Carousel.Slide>
                   <div>
-                    <img src="src\assets\projects\SimpleViewProject.png"/>
+                    <img src={SimpleViewProject}/>
                   </div>
                   <button className="code"><a className="simpleViewLink" href="https://github.com/Yirgaalem/OpenGL-RaceWay" target="_blank">View Code</a></button>
                 </Carousel.Slide>

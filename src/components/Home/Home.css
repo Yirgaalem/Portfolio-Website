@@ -7,9 +7,10 @@
     font-weight: 500;
     font-family: inherit;
     background-color: #3EB489;
-    cursor:pointer;
+    cursor: pointer;
     transition: border-color 0.25s;
-    color: white; 
+    color: white;
+    text-decoration: none
   }
 
 #Home {
